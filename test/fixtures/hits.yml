@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pitch_type: MyString
+  game_date: 2021-12-06
+  player_name: MyString
+  hit_distance: 1
+  event: MyString
+  bb_type: MyString
+  player: one
+
+two:
+  pitch_type: MyString
+  game_date: 2021-12-06
+  player_name: MyString
+  hit_distance: 1
+  event: MyString
+  bb_type: MyString
+  player: two
