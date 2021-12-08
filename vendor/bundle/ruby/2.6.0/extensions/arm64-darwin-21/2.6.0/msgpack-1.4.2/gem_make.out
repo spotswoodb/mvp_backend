@@ -1,5 +1,5 @@
 current directory: /Users/benspotswood/development/mvp_backend/vendor/bundle/ruby/2.6.0/gems/msgpack-1.4.2/ext/msgpack
-/Users/benspotswood/.rvm/rubies/ruby-2.6.8/bin/ruby -I /Users/benspotswood/.rvm/rubies/ruby-2.6.8/lib/ruby/site_ruby/2.6.0 -r ./siteconf20211206-79220-13lhxy7.rb extconf.rb
+/Users/benspotswood/.rvm/rubies/ruby-2.6.8/bin/ruby -I /Users/benspotswood/.rvm/rubies/ruby-2.6.8/lib/ruby/site_ruby/2.6.0 -r ./siteconf20211208-9725-lduzzo.rb extconf.rb
 checking for ruby/st.h... yes
 checking for st.h... yes
 checking for rb_str_replace() in ruby.h... yes
@@ -1434,4 +1434,4 @@ linking shared-object msgpack/msgpack.bundle
 
 current directory: /Users/benspotswood/development/mvp_backend/vendor/bundle/ruby/2.6.0/gems/msgpack-1.4.2/ext/msgpack
 make "DESTDIR=" install
-/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 msgpack.bundle ./.gem.20211206-79220-18jyoqp/msgpack
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 msgpack.bundle ./.gem.20211208-9725-4ppzuw/msgpack

@@ -1,5 +1,5 @@
 current directory: /Users/benspotswood/development/mvp_backend/vendor/bundle/ruby/2.6.0/gems/pg-1.2.3/ext
-/Users/benspotswood/.rvm/rubies/ruby-2.6.8/bin/ruby -I /Users/benspotswood/.rvm/rubies/ruby-2.6.8/lib/ruby/site_ruby/2.6.0 -r ./siteconf20211206-79220-1qyv5pp.rb extconf.rb
+/Users/benspotswood/.rvm/rubies/ruby-2.6.8/bin/ruby -I /Users/benspotswood/.rvm/rubies/ruby-2.6.8/lib/ruby/site_ruby/2.6.0 -r ./siteconf20211208-9725-4q6e85.rb extconf.rb
 checking for pg_config... yes
 Using config values from /opt/homebrew/bin/pg_config
 checking for libpq-fe.h... yes
@@ -3022,4 +3022,4 @@ linking shared-object pg_ext.bundle
 
 current directory: /Users/benspotswood/development/mvp_backend/vendor/bundle/ruby/2.6.0/gems/pg-1.2.3/ext
 make "DESTDIR=" install
-/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 pg_ext.bundle ./.gem.20211206-79220-6gpnot
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 pg_ext.bundle ./.gem.20211208-9725-5y3gss

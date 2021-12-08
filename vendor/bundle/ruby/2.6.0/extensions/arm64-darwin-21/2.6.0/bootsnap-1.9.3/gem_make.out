@@ -1,5 +1,5 @@
 current directory: /Users/benspotswood/development/mvp_backend/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.9.3/ext/bootsnap
-/Users/benspotswood/.rvm/rubies/ruby-2.6.8/bin/ruby -I /Users/benspotswood/.rvm/rubies/ruby-2.6.8/lib/ruby/site_ruby/2.6.0 -r ./siteconf20211206-79220-1kas5nl.rb extconf.rb
+/Users/benspotswood/.rvm/rubies/ruby-2.6.8/bin/ruby -I /Users/benspotswood/.rvm/rubies/ruby-2.6.8/lib/ruby/site_ruby/2.6.0 -r ./siteconf20211208-9725-z8mhpg.rb extconf.rb
 creating Makefile
 
 current directory: /Users/benspotswood/development/mvp_backend/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.9.3/ext/bootsnap
@@ -367,4 +367,4 @@ linking shared-object bootsnap/bootsnap.bundle
 
 current directory: /Users/benspotswood/development/mvp_backend/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.9.3/ext/bootsnap
 make "DESTDIR=" install
-/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20211206-79220-107mdvx/bootsnap
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20211208-9725-3lx357/bootsnap
