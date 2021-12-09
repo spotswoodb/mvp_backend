@@ -15,6 +15,8 @@ class PlayersController < ApplicationController
   end
 
   def index
+    @players = Player.all
+    render json: @players
   end
 
   def show

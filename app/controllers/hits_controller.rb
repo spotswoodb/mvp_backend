@@ -15,6 +15,8 @@ class HitsController < ApplicationController
   end
 
   def index
+    @hits = Hit.all
+    render json: @hits 
   end
 
   def show
