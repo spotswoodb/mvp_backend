@@ -16,11 +16,19 @@
 # end
 
 
-data = File.open('b_savant_data.csv').read
-parsed_data = CSV.parse(data).to_json
+CSV.foreach('b_savant_data.csv', headers: true) do |row|
+    Player.create( {
+        name: row["player_name"]
+    })
+    # Hit.create({
+    #     pitch_type: row["pitch_type"],
+    #     date: row["game_date"],
+    #     hit_distance: row["hit_distance_sc"]
+    # })
+
+end
+
 byebug
-
-
 
 
 
