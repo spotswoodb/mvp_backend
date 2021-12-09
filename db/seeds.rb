@@ -17,18 +17,21 @@
 
 
 CSV.foreach('b_savant_data.csv', headers: true) do |row|
-    Player.create( {
-        name: row["player_name"]
+    player = Player.find_or_create_by( {
+        name: row["player_name"],
+        batter_id: row["batter"]
     })
-    # Hit.create({
-    #     pitch_type: row["pitch_type"],
-    #     date: row["game_date"],
-    #     hit_distance: row["hit_distance_sc"]
-    # })
+    
+    player.hits.create({
+        pitch_type: row["pitch_type"],
+        game_date: row["game_date"],
+        hit_distance: row["hit_distance_sc"],
+        event: row["events"],
+        bb_type: row["bb_type"],
+        launch_speed: row["launch_speed"]
+    })
 
 end
-
-byebug
 
 
 

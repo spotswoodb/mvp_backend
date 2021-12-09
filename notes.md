@@ -1,0 +1,1 @@
+Fix Pitch type returning nil in database
