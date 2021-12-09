@@ -16,6 +16,14 @@
 # end
 
 
+data = File.open('b_savant_data.csv').read
+parsed_data = CSV.parse(data).to_json
+byebug
+
+
+
+
+
 
 # next_page = ''
 # while next_page do
