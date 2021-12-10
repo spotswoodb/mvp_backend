@@ -50,4 +50,5 @@ Action steps:
 - Don't create container until I'm working on the page in the App
 
 From tutorials:
-- 
+- Update Hits controller with errors
+- Follow tutorial to where she gets things rendered on the page - debug why players are not showing up
