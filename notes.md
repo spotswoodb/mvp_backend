@@ -51,4 +51,4 @@ Action steps:
 
 From tutorials:
 - Update Hits controller with errors
-- Follow tutorial to where she gets things rendered on the page - debug why players are not showing up
+- Ask Laura about 7 blog articles
