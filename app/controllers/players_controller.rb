@@ -26,7 +26,6 @@ class PlayersController < ApplicationController
   end
 
   def show
-    byebug
     render json: @player
   end
 

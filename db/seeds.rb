@@ -8,19 +8,19 @@
 
 
 require 'byebug'
-CSV.foreach('b_savant_data.csv', headers: true) do |row|
-    player = Player.find_or_create_by( {
-        name: row["player_name"],
-        batter_id: row["batter"]
-    })
-    player.hits.create({
-        pitch_type: row["pitch_type"],
-        game_date: row["game_date"],
-        hit_distance: row["hit_distance_sc"],
-        event: row["events"],
-        bb_type: row["bb_type"],
-        launch_speed: row["launch_speed"]
-    })
+# CSV.foreach('b_savant_data.csv', headers: true) do |row|
+#     player = Player.find_or_create_by( {
+#         name: row["player_name"],
+#         batter_id: row["batter"]
+#     })
+#     player.hits.create({
+#         pitch_type: row["pitch_type"],
+#         game_date: row["game_date"],
+#         hit_distance: row["hit_distance_sc"],
+#         event: row["events"],
+#         bb_type: row["bb_type"],
+#         launch_speed: row["launch_speed"]
+#     })
 
-end
+# end
 

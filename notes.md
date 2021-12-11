@@ -62,3 +62,7 @@ Today:
 - Turn these into player cards viewed like a gallery on the homepage
 - The hits page should present hit data in an interesting way. Maybe leaderboards?
 
+Do these two tasks then take a break
+- Setup rails migration to display date correctly "mm/dd/yyyy"
+- Drop data base
+- Reseed database
