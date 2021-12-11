@@ -1,4 +1,6 @@
 class HitsController < ApplicationController
+  before_action set_hit, only [:show]
+
   def new
   end
 
@@ -16,10 +18,11 @@ class HitsController < ApplicationController
 
   def index
     @hits = Hit.all
-    render json: @hits 
+    render json: @hits, include: :player 
   end
 
   def show
+    render json: @hit, include: :player
   end
 
 private
@@ -29,7 +32,7 @@ private
   end
   
   def hit_params
-    params.require(:hit).permit(:, :batter_id)
+    params.require(:hit).permit(:pitch_type, :game_date, :hit_distance, :event, :bb_type, :player_id)
   end
 
 end

@@ -26,6 +26,7 @@ class PlayersController < ApplicationController
   end
 
   def show
+    byebug
     render json: @player
   end
 
@@ -33,6 +34,7 @@ class PlayersController < ApplicationController
 
     def set_player
       @player = Player.find(params[:id])
+      @hits = @player.hits
     end
     
     def player_params
