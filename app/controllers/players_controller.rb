@@ -1,4 +1,6 @@
 class PlayersController < ApplicationController
+  before_action :set_player, only: [:show]
+
   def new
   end
 
@@ -24,6 +26,7 @@ class PlayersController < ApplicationController
   end
 
   def show
+    render json: @player
   end
 
   private

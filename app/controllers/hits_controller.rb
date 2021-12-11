@@ -21,4 +21,15 @@ class HitsController < ApplicationController
 
   def show
   end
+
+private
+
+  def set_hit
+    @hit = Hit.find(params[:id])
+  end
+  
+  def hit_params
+    params.require(:hit).permit(:, :batter_id)
+  end
+
 end

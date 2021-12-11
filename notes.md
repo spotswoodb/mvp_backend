@@ -1,23 +1,9 @@
-Fix Pitch type returning nil in database
-
-Check to see if the hit index route works
-
 Audit application to prevent future bugs
 
-Implement a secure User model that allows a user to sign in 
-
 Steps for making the app happen?
-- Show players and hits on the front end
 - Set them up properly
 - Implement a User model that covers the state requirement of the App
 - Will need to create a sessions controller
-
-
-After store run:
-- Get client up and running following old lessons
-
-- Get to a place where I can start building out components
-- Next steps from there
 
 
 
@@ -54,6 +40,8 @@ From tutorials:
 - Create form component
 - Know what is happening with state in the useSelector function in PlayersContainer
 - Shorten the list of batters and hits
+- add README
+- You need to create a PLAYER CARD component that takes in props
 
 Study: 
 - Version control is so important and easy to get caught up in if you're new to development
@@ -65,3 +53,12 @@ Futher
 
   Later:
 - Add users
+
+
+Today:
+- Serializer
+- Nest hits under player card
+- Player has a show page with all stats
+- Turn these into player cards viewed like a gallery on the homepage
+- The hits page should present hit data in an interesting way. Maybe leaderboards?
+
