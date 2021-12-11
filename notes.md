@@ -1,7 +1,17 @@
-Audit application to prevent future bugs
-
 Steps for making the app happen?
-- Set them up properly
+- Work on player card that takes in props
+- Gather stats on player card
+- Add README
+- Fix long list of hitters to look like baseball cards
+- Only load 20 or so per page
+- Enable searching for a player that will take you to the player show page
+
+Futher
+  First:
+- Bring in R code to create graphs based on player data i.e. projecting data
+
+  Later:
+- Add users
 - Implement a User model that covers the state requirement of the App
 - Will need to create a sessions controller
 
@@ -24,14 +34,9 @@ Project requirements:
 - [Once your app is complete, fill out this checklist.](https://goo.gl/forms/ULtKsxuzWomvXuTk2)
 
 Action steps:
-- Setup backend - have ability for react app to grab data
-- Active model serializer
-- then start on react App
-- start with menu
 -   homepage
 -   about us
--   page to list all players
--   install libraries: redux, thunk, 
+- Hits serializer necessary?
 
 - Don't create container until I'm working on the page in the App
 
@@ -39,30 +44,14 @@ From tutorials:
 - Update Hits controller with errors in Rails
 - Create form component
 - Know what is happening with state in the useSelector function in PlayersContainer
-- Shorten the list of batters and hits
-- add README
-- You need to create a PLAYER CARD component that takes in props
 
 Study: 
 - Version control is so important and easy to get caught up in if you're new to development
 - Understand what RESTful routing is
 
-Futher
-  First:
-- Bring in R code to create graphs based on player data i.e. projecting data
-
-  Later:
-- Add users
-
 
 Today:
-- Serializer
-- Nest hits under player card
 - Player has a show page with all stats
 - Turn these into player cards viewed like a gallery on the homepage
 - The hits page should present hit data in an interesting way. Maybe leaderboards?
 
-Do these two tasks then take a break
-- Setup rails migration to display date correctly "mm/dd/yyyy"
-- Drop data base
-- Reseed database
