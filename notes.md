@@ -50,5 +50,18 @@ Action steps:
 - Don't create container until I'm working on the page in the App
 
 From tutorials:
-- Update Hits controller with errors
-- Ask Laura about 7 blog articles
+- Update Hits controller with errors in Rails
+- Create form component
+- Know what is happening with state in the useSelector function in PlayersContainer
+- Shorten the list of batters and hits
+
+Study: 
+- Version control is so important and easy to get caught up in if you're new to development
+- Understand what RESTful routing is
+
+Futher
+  First:
+- Bring in R code to create graphs based on player data i.e. projecting data
+
+  Later:
+- Add users
