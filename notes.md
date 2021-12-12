@@ -55,3 +55,8 @@ Today:
 - Turn these into player cards viewed like a gallery on the homepage
 - The hits page should present hit data in an interesting way. Maybe leaderboards?
 
+Questions:
+- How do I make sure my hits index is set up properly? Should I only have the hits index nested under players?
+- Should my backend be doing that much work?
+- Why is the player attribute included on routes like /players/:id/hits
+

@@ -1,5 +1,5 @@
 class HitsController < ApplicationController
-  before_action set_hit, only [:show]
+  before_action :set_hit, only: [:show]
 
   def new
   end
@@ -17,12 +17,13 @@ class HitsController < ApplicationController
   end
 
   def index
-    @hits = Hit.all
-    render json: @hits, include: :player 
+    player = Player.find(params[:player_id])
+    @hits = player.hits.all
+    render json: @hits 
   end
 
   def show
-    render json: @hit, include: :player
+    render json: @hit
   end
 
 private
