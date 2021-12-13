@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application serves as the API for the MVP project. 
+Visit https://github.com/spotswoodb/mvp for the client side portion of the app.
 
-Things you may want to cover:
+
 
 * Ruby version
+2.6.8
 
 * System dependencies
+Ruby
+Rails 6.1.4
+Postgres 14.1
 
 * Configuration
+Clone this repository
+Install the gems
 
 * Database creation
+Postgres 14.1
 
 * Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This application will be updated periodically.

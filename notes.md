@@ -1,5 +1,5 @@
-Steps for making the app happen?
-- Work on player card that takes in props
+Steps:
+- Player card that takes in props
 - Gather stats on player card
 - Add README
 - Fix long list of hitters to look like baseball cards
