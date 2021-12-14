@@ -58,5 +58,6 @@ Today:
 Questions:
 - How do I make sure my hits index is set up properly? Should I only have the hits index nested under players?
 - Should my backend be doing that much work?
-- Why is the player attribute included on routes like /players/:id/hits
+- Why is the player attribute included on routes like /players/:id/hits in players_controller index?
+- Take a look at serializers
 

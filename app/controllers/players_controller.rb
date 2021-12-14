@@ -6,34 +6,23 @@ class PlayersController < ApplicationController
 
   def create
     @player = Player.create!(player_params)
-    render json: @player, status: :created, location: @note
+    render json: @player, status: :created
   end
 
   def update
-    @player.update!(player_notes)
+    @player.update!(player_params)
     render json: @player
-  end
-
-  def edit
-  end
-
-  def destroy
   end
 
   def index
-    @players = Player.all
+    @players = Player.includes(:hits)
     render json: @players
-  end
-
-  def show
-    render json: @player
   end
 
   private
 
     def set_player
       @player = Player.find(params[:id])
-      @hits = @player.hits
     end
     
     def player_params
