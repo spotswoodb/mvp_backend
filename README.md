@@ -5,9 +5,9 @@ Visit https://github.com/spotswoodb/mvp for the client portion of the app.
 
 
 ### System dependencies
-Ruby 2.6.8
-Rails 6.1.4
-Postgres 14.1
+- Ruby 2.6.8
+- Rails 6.1.4
+- Postgres 14.1
 
 ### Configuration
 Clone this repository
