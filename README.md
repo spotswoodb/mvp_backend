@@ -1,25 +1,23 @@
-# README
+# MVP Backend
 
 This application serves as the API for the MVP project. 
-Visit https://github.com/spotswoodb/mvp for the client side portion of the app.
+Visit https://github.com/spotswoodb/mvp for the client portion of the app.
 
 
-
-* Ruby version
-2.6.8
-
-* System dependencies
-Ruby
+### System dependencies
+Ruby 2.6.8
 Rails 6.1.4
 Postgres 14.1
 
-* Configuration
+### Configuration
 Clone this repository
 Install the gems
+```bash
+$ bundle install
+```
 
 * Database creation
-Postgres 14.1
+This API uses Postgres 14.1
 
-* Database initialization
 
 This application will be updated periodically.
