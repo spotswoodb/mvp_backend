@@ -1,5 +1,5 @@
 class PlayersController < ApplicationController
-  before_action :set_player, only: [:show]
+  before_action :set_player, only: [:show, :destroy]
 
   def new
   end
@@ -17,6 +17,11 @@ class PlayersController < ApplicationController
   def index
     @players = Player.includes(:hits)
     render json: @players
+  end
+
+  def destroy
+    @player.destroy
+    render json: @player.id
   end
 
   private
